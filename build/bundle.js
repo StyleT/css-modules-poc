@@ -101,7 +101,7 @@ function App() {
   return `<!DOCTYPE html>
     <html>
     <head>
-        <title>Holy Grail Markup</title>
+        <title>NC CSS Modules PoC</title>
         <link rel="stylesheet" href="global-styles/global.css">
         <link rel="stylesheet" href="build/style.css">
     </head>
