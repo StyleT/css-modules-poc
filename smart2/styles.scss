@@ -1,0 +1,11 @@
+.smartComponent {
+    border: 2px solid brown;
+
+	:global {
+    	@import '../dumb/styles';
+
+        .dumb-component .title:after {
+            content: " Another overrides applied!";
+        }
+    }
+}

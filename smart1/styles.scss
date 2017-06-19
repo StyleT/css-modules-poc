@@ -1,0 +1,15 @@
+.smartComponent {
+    border: 2px solid black;
+
+	:global {
+    	@import '../dumb/styles';
+
+        .dumb-component .title:after {
+            content: " Overrides applied!";
+        }
+    }
+
+    .title:after {
+        content: " Correct styles applied!";
+    }
+}

@@ -1,0 +1,8 @@
+.dumb-component {
+    border: 2px solid red;
+    margin: 10px 5px;
+}
+
+.dumb-component .title {
+    margin: 0;
+}

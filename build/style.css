@@ -1,0 +1,66 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font: 13px Tahoma, Sans-Serif;
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background: #eee;
+}
+
+.app-styles__wrapper--4caad
+{
+    position: relative;
+
+    width: 700px;
+    min-height: 100%;
+    margin: 0 auto;
+
+    background: #fff;
+}
+.smart1-styles__smartComponent--39d29 {
+  border: 2px solid black;
+}
+
+.smart1-styles__smartComponent--39d29 .dumb-component {
+  border: 2px solid red;
+  margin: 10px 5px;
+}
+
+.smart1-styles__smartComponent--39d29 .dumb-component .title {
+  margin: 0;
+}
+
+.smart1-styles__smartComponent--39d29 .dumb-component .title:after {
+  content: " Overrides applied!";
+}
+
+.smart1-styles__smartComponent--39d29 .smart1-styles__title--78140:after {
+  content: " Correct styles applied!";
+}
+
+.smart2-styles__smartComponent--01758 {
+  border: 2px solid brown;
+}
+
+.smart2-styles__smartComponent--01758 .dumb-component {
+  border: 2px solid red;
+  margin: 10px 5px;
+}
+
+.smart2-styles__smartComponent--01758 .dumb-component .title {
+  margin: 0;
+}
+
+.smart2-styles__smartComponent--01758 .dumb-component .title:after {
+  content: " Another overrides applied!";
+}
+
+
+/*# sourceMappingURL=style.css.map*/
